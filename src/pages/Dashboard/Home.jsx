@@ -55,7 +55,7 @@ function Home() {
   return (
     <DashboardLayout activeMenu={'Dashboard'}>
       <div className='my-5 mx-auto '>
-        <div className='grid lg:grid-cols-3 md:grid-cols-3 gap-6'>
+        <div className='grid lg:grid-cols-3 md:grid-cols-3 gap-2'>
           <InfoCard
             icon={<IoMdCard />}
             lable="Total Balance"
